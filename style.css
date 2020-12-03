@@ -1,0 +1,33 @@
+@charset 'UTF-8';
+
+/**
+ * @package     WP-Basis Theme
+ * @subpackage  WP-Basis Theme Child Starter
+ * @template    stylesheet
+ * @since       0.0.1
+ * 
+ * Theme Name:  WP-Basis Child:starter
+ * Theme URI:   https://github.com/bueltge/wordpress-basis-theme-Child-Starter
+ * Description: A boiler plate to create your own child theme for WP Basis.
+ * Author:      Frank Bültge
+ * Author URI:  https://bueltge.de/
+ * Version:     2018-05-17
+ * Template:    wordpress-basis-theme
+ * Status:      Development
+ * Tags:        translation-ready, theme-options
+ * License:     GNU General Public License (GPL) version 3
+ * License URI: license.txt
+ */
+
+// Simple CSS Reset.
+// Keep Things Simple and Relevant.
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
